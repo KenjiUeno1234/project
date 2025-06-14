@@ -191,7 +191,7 @@ export default function CasesPage() {
                       <h4 className="text-2xl font-bold text-gray-900 mb-6">お客様の声</h4>
                       <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-2xl border-l-4 border-blue-500">
                         <blockquote className="text-gray-700 italic mb-4">
-                          "{caseStudy.testimonial}"
+                          &ldquo;{caseStudy.testimonial}&rdquo;
                         </blockquote>
                         <div className="flex items-center">
                           <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${caseStudy.color} flex items-center justify-center text-white font-bold mr-3`}>
