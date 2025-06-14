@@ -1,3 +1,4 @@
+'use client'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -10,7 +11,6 @@ export const metadata: Metadata = {
   },
 }
 
-'use client'
 
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
